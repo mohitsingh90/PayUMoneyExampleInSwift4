@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C568B4520751B6F00EFFF64 /* PayUServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C568B4420751B6F00EFFF64 /* PayUServiceHelper.m */; };
 		4CF335E52073DF7E00014E25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF335E42073DF7E00014E25 /* AppDelegate.swift */; };
 		4CF335E72073DF7E00014E25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF335E62073DF7E00014E25 /* ViewController.swift */; };
 		4CF335EA2073DF7E00014E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF335E82073DF7E00014E25 /* Main.storyboard */; };
 		4CF335EC2073DF7F00014E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF335EB2073DF7F00014E25 /* Assets.xcassets */; };
 		4CF335EF2073DF7F00014E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CF335ED2073DF7F00014E25 /* LaunchScreen.storyboard */; };
+		A653F4386AF98CE05C19D4FD /* Pods_PayUMoneyExampleInSwift4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A32B716432518B80D3F58E /* Pods_PayUMoneyExampleInSwift4.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C568B4120751A8B00EFFF64 /* UMoneyExampleInSwift4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMoneyExampleInSwift4-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C568B4320751B6F00EFFF64 /* PayUServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUServiceHelper.h; sourceTree = "<group>"; };
+		4C568B4420751B6F00EFFF64 /* PayUServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayUServiceHelper.m; sourceTree = "<group>"; };
 		4CF335E12073DF7E00014E25 /* PayUMoneyExampleInSwift4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUMoneyExampleInSwift4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF335E42073DF7E00014E25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CF335E62073DF7E00014E25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		4CF335EB2073DF7F00014E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CF335EE2073DF7F00014E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CF335F02073DF7F00014E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59C31DC4E8317BFDD1501CB9 /* Pods-PayUMoneyExampleInSwift4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyExampleInSwift4.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyExampleInSwift4/Pods-PayUMoneyExampleInSwift4.release.xcconfig"; sourceTree = "<group>"; };
+		65A32B716432518B80D3F58E /* Pods_PayUMoneyExampleInSwift4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUMoneyExampleInSwift4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6B877FB965E3BF7780D7DC /* Pods-PayUMoneyExampleInSwift4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUMoneyExampleInSwift4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayUMoneyExampleInSwift4/Pods-PayUMoneyExampleInSwift4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A653F4386AF98CE05C19D4FD /* Pods_PayUMoneyExampleInSwift4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C02EB52B79FE42F63DF0E12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D6B877FB965E3BF7780D7DC /* Pods-PayUMoneyExampleInSwift4.debug.xcconfig */,
+				59C31DC4E8317BFDD1501CB9 /* Pods-PayUMoneyExampleInSwift4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C568B4220751B6F00EFFF64 /* PayUService Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4C568B4320751B6F00EFFF64 /* PayUServiceHelper.h */,
+				4C568B4420751B6F00EFFF64 /* PayUServiceHelper.m */,
+			);
+			path = "PayUService Helper";
+			sourceTree = "<group>";
+		};
 		4CF335D82073DF7E00014E25 = {
 			isa = PBXGroup;
 			children = (
 				4CF335E32073DF7E00014E25 /* PayUMoneyExampleInSwift4 */,
 				4CF335E22073DF7E00014E25 /* Products */,
+				2C02EB52B79FE42F63DF0E12 /* Pods */,
+				EAB9680F626D344BA5EE4493 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +83,8 @@
 		4CF335E32073DF7E00014E25 /* PayUMoneyExampleInSwift4 */ = {
 			isa = PBXGroup;
 			children = (
+				4C568B4220751B6F00EFFF64 /* PayUService Helper */,
+				4C568B4120751A8B00EFFF64 /* UMoneyExampleInSwift4-Bridging-Header.h */,
 				4CF335E42073DF7E00014E25 /* AppDelegate.swift */,
 				4CF335E62073DF7E00014E25 /* ViewController.swift */,
 				4CF335E82073DF7E00014E25 /* Main.storyboard */,
@@ -64,6 +95,14 @@
 			path = PayUMoneyExampleInSwift4;
 			sourceTree = "<group>";
 		};
+		EAB9680F626D344BA5EE4493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A32B716432518B80D3F58E /* Pods_PayUMoneyExampleInSwift4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF335F32073DF7F00014E25 /* Build configuration list for PBXNativeTarget "PayUMoneyExampleInSwift4" */;
 			buildPhases = (
+				6688D766BC2489378657A85F /* [CP] Check Pods Manifest.lock */,
 				4CF335DD2073DF7E00014E25 /* Sources */,
 				4CF335DE2073DF7E00014E25 /* Frameworks */,
 				4CF335DF2073DF7E00014E25 /* Resources */,
+				AC9D625A436558B4E956AC56 /* [CP] Embed Pods Frameworks */,
+				8721BDCEB6FB96AA98E94822 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,11 +172,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6688D766BC2489378657A85F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUMoneyExampleInSwift4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8721BDCEB6FB96AA98E94822 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUMoneyExampleInSwift4/Pods-PayUMoneyExampleInSwift4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9D625A436558B4E956AC56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayUMoneyExampleInSwift4/Pods-PayUMoneyExampleInSwift4-frameworks.sh",
+				"${PODS_ROOT}/CitrusGraphics/Framework/graphics-sdk/CitrusGraphics.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${PODS_ROOT}/PayUmoney_CoreSDK/CoreSDK/PayUMoneyCoreSDK.framework",
+				"${PODS_ROOT}/PayUmoney_PnP/PlugNPlay/PlugNPlay.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CitrusGraphics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PayUMoneyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlugNPlay.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUMoneyExampleInSwift4/Pods-PayUMoneyExampleInSwift4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CF335DD2073DF7E00014E25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C568B4520751B6F00EFFF64 /* PayUServiceHelper.m in Sources */,
 				4CF335E72073DF7E00014E25 /* ViewController.swift in Sources */,
 				4CF335E52073DF7E00014E25 /* AppDelegate.swift in Sources */,
 			);
@@ -278,17 +381,16 @@
 		};
 		4CF335F42073DF7F00014E25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6B877FB965E3BF7780D7DC /* Pods-PayUMoneyExampleInSwift4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QDLY8TKPF;
 				INFOPLIST_FILE = PayUMoneyExampleInSwift4/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.PayUMoneyExampleInSwift4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayUMoneyExampleInSwift4/UMoneyExampleInSwift4-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,17 +398,16 @@
 		};
 		4CF335F52073DF7F00014E25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C31DC4E8317BFDD1501CB9 /* Pods-PayUMoneyExampleInSwift4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8QDLY8TKPF;
 				INFOPLIST_FILE = PayUMoneyExampleInSwift4/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.PayUMoneyExampleInSwift4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayUMoneyExampleInSwift4/UMoneyExampleInSwift4-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

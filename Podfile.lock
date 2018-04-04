@@ -1,0 +1,21 @@
+PODS:
+  - CitrusGraphics (2.1.0)
+  - Kingfisher (4.6.4)
+  - PayUmoney_CoreSDK (3.2)
+  - PayUmoney_PnP (2.2):
+    - CitrusGraphics
+    - PayUmoney_CoreSDK
+
+DEPENDENCIES:
+  - Kingfisher (~> 4.0)
+  - PayUmoney_PnP
+
+SPEC CHECKSUMS:
+  CitrusGraphics: 21ca86e16760e4226d48f6e2bfbf0d40d5f8c285
+  Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+  PayUmoney_CoreSDK: cfb8fca58220ce424a37b9d83400efbc411b1d25
+  PayUmoney_PnP: 0aaec816e992fd6b67d34514204f4bc5b0c14388
+
+PODFILE CHECKSUM: a82486f58bce03bf094a9729ca8be884f58ff88c
+
+COCOAPODS: 1.4.0

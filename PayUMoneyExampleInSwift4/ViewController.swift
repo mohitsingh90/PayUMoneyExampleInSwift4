@@ -12,7 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        
+        PayUServiceHelper.sharedManager().getPayment(self, "mail@mymail.com", "9878765656", "Name", "100.00", "txnnid9087877", didComplete: { (dict, error) in
+            if let error = error {
+                print("Error")
+            }else {
+                
+                print("Sucess")
+            }
+        }) { (error) in
+            print("Payment Process Breaked")
+        }
+        
+
     }
 
     override func didReceiveMemoryWarning() {
